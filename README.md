@@ -1,11 +1,8 @@
-[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/MediaDeb)
-[![Build Status](https://jenkins.ncrmnt.org/job/GithubCI/job/MediaDeb/badge/icon)](https://jenkins.ncrmnt.org/job/GithubCI/job/MediaDeb/)
+# What is AndroidDeb ?
 
-# What is MediaDeb ?
+Think Android is a pain? Want to run nginx anywhere? Got an android phone, with an unlocked bootloader? 
 
-Ever had an old cheap cellphone? Perhaps with a broken screen/sim slot/barely alive battery? With MediaDeb you can turn it into a Raspberry Pi-like SBC.
-
-MediaDeb is a hacky effort to port a recent Debian to run on a mediatek phone. No chroot, no android guts whatsoever. Just pure Debian. We try to make it work with the least effort, therefore:
+AndroDeb is a hacky effort to port a recent Debian to run on an android phone. No chroot, no android guts whatsoever. Just pure Debian. We try to make it work with the least effort, therefore:
 
 * Kernels built from published vendor SDK. Forward-porting all the vendor hacks is a tedious, nearly impossible task and is outside of the scope of this project
 
@@ -84,11 +81,11 @@ for the battery from 4-4.2 volts to 3.7-3.8 volts. This allows to avoid 'bloatin
     2. Development packages: multistrap build-essential cmake
     3. Caffeine
 
-- Clone the MediaDeb repository.
+- Clone the AndroDeb repository.
 
 
 ```
-git clone https://github.com/nekromant/MediaDeb.git
+git clone https://github.com/00p513-dev/AndroDeb
 ```
 
 docker run --rm --privileged multiarch/qemu-user-static:register
@@ -158,8 +155,8 @@ _NOTE:_ This section is a placeholder written by cpt. Obvious
 
 # No warranty
 
-MediaDeb comes with absolutely no warranty, not even of fitness for particular purpose. If you brick your hardware and your mom gets angry - it's all your fault ;)
+AndroDeb comes with absolutely no warranty, not even of fitness for particular purpose. If you brick your hardware and your mom gets angry - it's all your fault ;)
 
 # Credits
 
-Andy 'ncrmnt' http://ncrmnt.org
+Andy 'ncrmnt' http://ncrmnt.org for his MediaDeb project
